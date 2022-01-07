@@ -7,7 +7,7 @@ function AboutMe() {
                 <h1 className="font-rye text-2xl text-center sm:text-4xl">
                     ABOUT ME
                 </h1>
-                <p className="pt-6 ">
+                <p className="pt-6 font-semibold">
                     My name is Barr. Anselm A. Egbo I am 
                     lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -16,7 +16,7 @@ function AboutMe() {
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <p className="pt-6 ">
+                <p className="pt-6 font-semibold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
