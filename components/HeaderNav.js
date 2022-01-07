@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function HeaderNav() {
     return (
-        <div className="pl-1 pr-4 py-2 shadow-lg shadow-gray-900 flex items-center justify-between space-x-2 sm:space-x-6">
+        <div className="pl-1 pr-4 py-2 shadow-lg shadow-gray-900 flex items-center justify-between space-x-2 sm:space-x-2">
             <div className="flex items-center">
                 <Image
                     src="/anselm_logo.png"
@@ -14,7 +14,7 @@ function HeaderNav() {
                     Barr. Anselm Egbo
                 </h2>  
             </div>
-            <div className="flex items-center justify-center space-x-2">
+            <div className="flex items-center justify-center space-x-2 sm:space-x-6">
             <a href="https://www.facebook.com/anselm.egbo" target="_blank"
                 className="w-8 h-8 border border-gray-600 shadow-lg shadow-black flex justify-center items-center rounded-full">
                 <svg viewBox="0 0 24 24"
