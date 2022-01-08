@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function HeaderNav() {
     return (
-        <div className="pl-1 pr-4 py-2 shadow-lg shadow-gray-900 flex items-center justify-between space-x-2 sm:space-x-2">
+        <div className="pl-1 pr-4 py-2 sticky top-0 z-50 bg-gray-700 flex items-center justify-between space-x-2 sm:space-x-2">
             <div className="flex items-center">
                 <Image
                     src="/anselm_logo.png"
